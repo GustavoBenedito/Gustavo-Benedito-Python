@@ -1,0 +1,160 @@
+*{
+    margin: auto;
+    text-decoration: none;
+}
+body{
+    Background:#121214; 
+    font-size: 20px;
+    font-family: "Ariel", Helvetica, Ariel;
+    
+}
+.titulo{
+    background-color: #8B008B;
+    color:#121214;
+    font-size: 45px;
+    text-align: center;
+    padding:auto;
+    
+}
+
+.branco{
+    color:#FFFF00;
+}
+/* Alinhamento Horizontal */
+.esquerda {
+	text-align: left;
+}
+
+.centro {
+	text-align: center;
+}
+
+.direita {
+	text-align: right;
+}
+
+.justificado {
+	text-align: justify;
+}
+/* *********************** */
+/* Alinhamento vertical */
+.topo {
+    vertical-align: top;
+
+}
+
+.meio {
+	vertical-align: middle;
+}
+
+.abaixo {
+	vertical-align: bottom;
+}
+/* *********************** */
+
+.menu{
+    background-color: #460046;
+    color: #E1E1E6;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+/* formatação do menu */
+#cabecalho a:link, #cabecalho a:visited {
+    color:#FFFF00;
+    padding: 8px 12px;
+}
+#cabecalho a:hover {
+    color:#FFFF00;
+    background:#E1E1E6;
+}
+a:link, a:visited {
+    color:#000000;
+    padding: auto;
+}
+a:hover {
+    color:#FFFF00;
+    background: #460046;
+}
+
+a {
+    text-decoration: none;
+}  
+.rodape{
+    color: #E1E1E6;
+}
+.roxo{
+    background-color: #8B008B;
+}
+/* formularios */
+fieldset{
+    margin: 20px;
+    padding: auto;
+    border: 0px solid #8B008B;
+    color:  #8B008B;
+    text-align: center;
+}
+legend{
+    font-weight: bold;
+    text-align: center;
+}
+label{
+    display:block;
+    cursor: pointer;
+}
+input{
+    width: 150px;
+    text-align: center;
+}
+textarea{
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+.roxo1{
+    color: #8257E6;
+}
+/* parte de login */
+.login{
+    background-color: #460046;
+    text-align: left;
+    color: #E1E1E6;
+    width: 20px;
+}
+.cadastrese{
+    background-color:#ffff00c0;
+    width:60px;
+}
+.logar{
+    background-color:#ffff00;
+    width:50px;
+}
+.padleft{
+    padding-left: 10px;
+}
+.botao {
+	border-radius: 5px;
+	margin: 5px 5px 5px 5px;
+    padding: 2px 2px 2px 2px;
+    color: #000000;
+    
+}
+.cursor{
+    cursor: pointer;
+}
+.cadastro{
+    color: #8B008B;
+    padding: auto;
+}
+.amarelo{
+    color: #FFFF00;
+    padding: 0px;
+}
+.redondo{
+    border-radius: 5px;
+}
+.botaoamarelo{
+    background-color: #FFFF00;
+}
